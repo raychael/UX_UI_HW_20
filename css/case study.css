@@ -44,9 +44,11 @@ li:nth-child(5) {
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
     text-align: center;
-    margin-left: 250px;
-    margin-right: 25px;
     margin-top: 50px;
+}
+.text {
+    margin-left: 300px;
+    margin-right: 50px;
 }
 
 /*Project Overview*/
@@ -57,6 +59,56 @@ li:nth-child(5) {
     text-align: center;
     padding: 10px;
     margin-top: 20px;
+    margin-bottom: 20px;
+}
+.banner h2 {
+    font-weight: bold;
+    font-size: 35px;
+    margin-top: 10px;
+}
+.col-sm {
+    font-family: 'Courier New', Courier, monospace;
+}
+.center {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+p .bold {
+    font-size: 20px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+.col-sm p:nth-child(2) {
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.col-sm img {
+    height: 200px;
+}
+.overview p {
+    font-family: 'Courier New', Courier, monospace;
+}
+.overview {
+    margin-top: 30px;
+}
+p strong {
+    font-size: 20px;
+}
+.col-sm .width {
+    width: 100%;
+    height: 100%;
+}
+
+
+/*User Research*/
+.banner {
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #455246;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 .banner h2 {
     font-weight: bold;
@@ -64,19 +116,22 @@ li:nth-child(5) {
     margin-top: 10px;
 }
 
+
 /*Side Nav*/
 
 #sidenav {
     background-image: url(../images/Lines.png);
     background-size: contain;
     position: fixed;
-    top: 120px;
+    top: 200px;
     left: 50px;
     background-position: top left;
     padding-left: 30px;
     background-repeat: no-repeat;
     display: flex;
     flex-direction: column;
+    font-size: 16px;
+    margin-right: 1100px;
 }
 #sidenav a {
     display: block;
