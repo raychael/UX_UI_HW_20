@@ -1,0 +1,108 @@
+
+/* Header */
+
+li:nth-child(5) {
+    font-weight: bold;
+    text-decoration: underline;
+ }
+ li:nth-child(2) {
+    font-weight: normal !important;
+    text-decoration: none !important;
+ }
+
+/* My work */
+.hero {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(221, 183, 171);
+    width: 100%;
+    height: 100vh;
+    flex-wrap: wrap;
+    align-items: center;
+}
+/*Title*/
+
+.myworkheader {
+    height: 70px;
+    margin-top: 150px;
+    width: 100%;
+}
+h3 {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 0px;
+}
+.hr {
+    border: 1px solid black;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.work img {
+    height: 25px;
+    margin-left: 15px;
+    margin-top: 47px;
+}
+.work {
+    display: flex;
+    justify-content: center;
+    margin-top: -30px;
+}
+
+/*Cards*/
+.card {
+    margin-left: 30px;
+    margin-right: 30px;
+    margin-bottom: 50px;
+    margin-top: 50px;
+    background-color: #FFFAF4;
+    border: 1px solid black;
+}
+.cardtitle {
+    background-color: #455246;
+    color: white;
+    height: 45px;
+    border: .5px solid black;
+}
+.cardtitle h4 {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    padding: 1%;
+    margin-top: -1px;
+}
+.summary p {
+    font-size: 25px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: normal;
+    margin-top: 25px;
+    margin-left: 20px;
+    margin-bottom: 50px;
+}
+.cardinner {
+    display: grid;
+    grid-template-columns: 1fr 500px;
+}
+.card:hover {
+    background-color: #E8D4BB;
+    border: 2px solid black;
+    box-shadow: 5px 5px #c5c5c5;
+}
+/*Images*/
+.cardimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.display {
+    width: 400px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.htiphone {
+    width: 120px;
+    margin-right: 30px;
+    margin-left: 50px;
+}
